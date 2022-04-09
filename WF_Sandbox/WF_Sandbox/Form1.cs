@@ -20,10 +20,10 @@ namespace WF_Sandbox
 
         private void labelFinish_MouseEnter(object sender, EventArgs e)
         {
-            MessageBox.Show("You've done it!");
-            Form Form2 = new Form();
-            Form2.Show();
-            //Hide();
+            Messages.ShowCompletion("You've finished LEVEL1!");
+            this.Hide();
+            Form2 level2 = new Form2();
+            level2.Show();            
         }
 
         private void MoveToStart()
@@ -36,6 +36,38 @@ namespace WF_Sandbox
         private void panel1_MouseEnter(object sender, EventArgs e)
         {
             MoveToStart();
+        }
+
+        Point lastPoint;
+        private void panel1_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                this.Cursor = System.Windows.Forms.Cursors.SizeAll;
+                this.Left += e.X - lastPoint.X;
+                this.Top += e.Y - lastPoint.Y;
+            }    
+            else
+                this.Cursor = System.Windows.Forms.Cursors.Default;
+
+        }
+
+        private void panel1_MouseDown(object sender, MouseEventArgs e)
+        {
+            lastPoint = new Point(e.X, e.Y);   
+        }
+
+        private void buttonClose_Click(object sender, EventArgs e)
+        {
+            Messages.ShowExitConfirmation();
+        }
+
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Escape)
+            {
+                Messages.ShowExitConfirmation();
+            }
         }
     }
 }

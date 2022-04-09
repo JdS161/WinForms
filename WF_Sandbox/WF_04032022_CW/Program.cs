@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace WF_04032022_CW
 {
-    internal static class Program
+    internal static class MessProgram
     {
 
         static DialogResult ShowMessageBoxes()
@@ -21,7 +21,7 @@ namespace WF_04032022_CW
             DialogResult result = MessageBox.Show(message, _caption, MessageBoxButtons.OKCancel);
             string _button = result.ToString();
             //3
-            result = MessageBox.Show("You've pushed" + _button + " Repeat?",  _button, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Asterisk);
+            result = MessageBox.Show("You've pushed " + _button + ". \nRepeat?",  _button, MessageBoxButtons.AbortRetryIgnore, MessageBoxIcon.Asterisk);
             return result;
         }
 

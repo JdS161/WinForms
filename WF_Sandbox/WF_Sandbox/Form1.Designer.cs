@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panel1 = new System.Windows.Forms.Panel();
+            this.buttonClose = new System.Windows.Forms.Label();
             this.labelFinish = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
@@ -45,6 +46,8 @@
             // 
             // panel1
             // 
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.buttonClose);
             this.panel1.Controls.Add(this.labelFinish);
             this.panel1.Controls.Add(this.label9);
             this.panel1.Controls.Add(this.label8);
@@ -58,9 +61,24 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(866, 738);
+            this.panel1.Size = new System.Drawing.Size(865, 738);
             this.panel1.TabIndex = 0;
+            this.panel1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseDown);
             this.panel1.MouseEnter += new System.EventHandler(this.panel1_MouseEnter);
+            this.panel1.MouseMove += new System.Windows.Forms.MouseEventHandler(this.panel1_MouseMove);
+            // 
+            // buttonClose
+            // 
+            this.buttonClose.AutoSize = true;
+            this.buttonClose.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonClose.Font = new System.Drawing.Font("Arial", 16F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonClose.ForeColor = System.Drawing.Color.Red;
+            this.buttonClose.Location = new System.Drawing.Point(820, 8);
+            this.buttonClose.Name = "buttonClose";
+            this.buttonClose.Size = new System.Drawing.Size(32, 32);
+            this.buttonClose.TabIndex = 10;
+            this.buttonClose.Text = "X";
+            this.buttonClose.Click += new System.EventHandler(this.buttonClose_Click);
             // 
             // labelFinish
             // 
@@ -87,7 +105,7 @@
             // label8
             // 
             this.label8.BackColor = System.Drawing.Color.Black;
-            this.label8.Location = new System.Drawing.Point(103, 258);
+            this.label8.Location = new System.Drawing.Point(168, 258);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(22, 155);
             this.label8.TabIndex = 7;
@@ -97,7 +115,7 @@
             // label7
             // 
             this.label7.BackColor = System.Drawing.Color.Black;
-            this.label7.Location = new System.Drawing.Point(236, 532);
+            this.label7.Location = new System.Drawing.Point(267, 532);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(22, 155);
             this.label7.TabIndex = 6;
@@ -107,7 +125,7 @@
             // label6
             // 
             this.label6.BackColor = System.Drawing.Color.Black;
-            this.label6.Location = new System.Drawing.Point(522, 554);
+            this.label6.Location = new System.Drawing.Point(533, 554);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(332, 29);
             this.label6.TabIndex = 5;
@@ -127,7 +145,7 @@
             // label4
             // 
             this.label4.BackColor = System.Drawing.Color.Black;
-            this.label4.Location = new System.Drawing.Point(348, 362);
+            this.label4.Location = new System.Drawing.Point(350, 384);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(515, 29);
             this.label4.TabIndex = 3;
@@ -147,7 +165,7 @@
             // label2
             // 
             this.label2.BackColor = System.Drawing.Color.Black;
-            this.label2.Location = new System.Drawing.Point(351, 96);
+            this.label2.Location = new System.Drawing.Point(350, 96);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(515, 29);
             this.label2.TabIndex = 1;
@@ -169,12 +187,16 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
-            this.ClientSize = new System.Drawing.Size(866, 738);
+            this.ClientSize = new System.Drawing.Size(865, 738);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Maze";
+            this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
             this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -192,5 +214,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label buttonClose;
     }
 }
