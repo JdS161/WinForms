@@ -18,13 +18,6 @@ namespace WindowsForms_HW1
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new WinForms_HW1());
 
-
-            //DialogResult result;
-
-            //result = Messages.ShowPart1();
-
-            //result = Messages.ShowPart2();
-
         }
     }
 }

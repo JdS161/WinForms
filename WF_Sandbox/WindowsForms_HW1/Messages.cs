@@ -26,7 +26,6 @@ namespace WindowsForms_HW1
         public static DialogResult ShowPart2()
         {
             string _message = "Message from Developer!";
-            //string _caption = "";
 
             DialogResult result = MessageBox.Show(_message);
 
