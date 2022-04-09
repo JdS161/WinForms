@@ -14,16 +14,16 @@ namespace WindowsForms_HW1
         [STAThread]
         static void Main()
         {
-            //Application.EnableVisualStyles();
-            //Application.SetCompatibleTextRenderingDefault(false);
-            //Application.Run(new Form1());
+            Application.EnableVisualStyles();
+            Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new WinForms_HW1());
 
 
-            DialogResult result;
+            //DialogResult result;
 
             //result = Messages.ShowPart1();
-            
-            result = Messages.ShowPart2();
+
+            //result = Messages.ShowPart2();
 
         }
     }
