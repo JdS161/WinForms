@@ -1,6 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WF_Sandbox",
+    "\\WF_Sandbox\\WindowsForms_HW1"
   ],
+  "SelectedNode": "\\WF_Sandbox\\WindowsForms_HW1\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

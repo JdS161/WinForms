@@ -20,7 +20,12 @@
       "ProjectGuid": "4226c774-b478-4a25-8747-3c3dbff04eab",
       "DisplayName": "WindowsForms_HW1",
       "ColorIndex": 2
+    },
+    "9a9190c0-b979-4d8b-bcf3-9bfc90d7809e": {
+      "ProjectGuid": "9a9190c0-b979-4d8b-bcf3-9bfc90d7809e",
+      "DisplayName": "WindowsForms_HW1",
+      "ColorIndex": 3
     }
   },
-  "NextColorIndex": 3
+  "NextColorIndex": 4
 }
