@@ -7,13 +7,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Diagnostics;
 
 namespace CW_04102022
 {
-    public partial class Task2 : Form
+    public partial class TimerForm : Form
     {
-        Timer timer = new Timer();
-        public Task2()
+        Stopwatch stopWatch = new Stopwatch();
+        System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
+        
+        
+
+        public TimerForm()
         {
             InitializeComponent();
             buttonStop.Enabled = false;
@@ -26,6 +31,8 @@ namespace CW_04102022
             MessageBox.Show("Timer finished", "Timer");
             buttonStop.Enabled = false;
         }
+
+        
 
         private void buttonStart_Click(object sender, EventArgs e)
         {

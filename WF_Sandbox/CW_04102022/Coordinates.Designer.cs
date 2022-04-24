@@ -1,6 +1,6 @@
 ﻿namespace CW_04102022
 {
-    partial class Form1
+    partial class Coordinates
     {
         /// <summary>
         /// Required designer variable.

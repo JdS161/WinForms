@@ -55,6 +55,7 @@
             this.buttonTask1.Text = "Task1";
             this.toolTipTask1.SetToolTip(this.buttonTask1, "Timer");
             this.buttonTask1.UseVisualStyleBackColor = true;
+            this.buttonTask1.Click += new System.EventHandler(this.buttonTask1_Click);
             // 
             // buttonTask2
             // 
@@ -67,6 +68,7 @@
             this.buttonTask2.Text = "Task2";
             this.toolTipTask2.SetToolTip(this.buttonTask2, "Coordinates");
             this.buttonTask2.UseVisualStyleBackColor = true;
+            this.buttonTask2.Click += new System.EventHandler(this.buttonTask2_Click);
             // 
             // buttonTask3
             // 
@@ -79,6 +81,7 @@
             this.buttonTask3.Text = "Task3";
             this.toolTipTask3.SetToolTip(this.buttonTask3, "Personal infomation form");
             this.buttonTask3.UseVisualStyleBackColor = true;
+            this.buttonTask3.Click += new System.EventHandler(this.buttonTask3_Click);
             // 
             // buttonTask4
             // 
@@ -91,6 +94,7 @@
             this.buttonTask4.Text = "Task4";
             this.toolTipTask4.SetToolTip(this.buttonTask4, "Curriculum Vitae");
             this.buttonTask4.UseVisualStyleBackColor = true;
+            this.buttonTask4.Click += new System.EventHandler(this.buttonTask4_Click);
             // 
             // buttonExit
             // 
@@ -109,7 +113,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 9);
+            this.label1.Location = new System.Drawing.Point(3, 10);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(162, 24);
             this.label1.TabIndex = 5;
@@ -119,7 +123,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(195, 9);
+            this.label2.Location = new System.Drawing.Point(195, 10);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(148, 24);
             this.label2.TabIndex = 6;
@@ -129,7 +133,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial Black", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(49, 43);
+            this.label3.Location = new System.Drawing.Point(49, 44);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(259, 28);
             this.label3.TabIndex = 7;

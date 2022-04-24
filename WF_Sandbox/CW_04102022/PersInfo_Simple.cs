@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace CW_04102022
 {
-    public partial class Task3 : Form
+    public partial class PersInfo_Simple : Form
     {
-        public Task3()
+        public PersInfo_Simple()
         {
             InitializeComponent();
         }

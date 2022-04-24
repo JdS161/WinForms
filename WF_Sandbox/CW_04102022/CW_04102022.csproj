@@ -46,11 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Coordinates.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Coordinates.Designer.cs">
+      <DependentUpon>Coordinates.cs</DependentUpon>
     </Compile>
     <Compile Include="HW2_MenuForm.cs">
       <SubType>Form</SubType>
@@ -67,20 +67,20 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Task2.cs">
+    <Compile Include="TimerForm.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task2.Designer.cs">
-      <DependentUpon>Task2.cs</DependentUpon>
+    <Compile Include="TimerForm.Designer.cs">
+      <DependentUpon>TimerForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="Task3.cs">
+    <Compile Include="PersInfo_Simple.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Task3.Designer.cs">
-      <DependentUpon>Task3.cs</DependentUpon>
+    <Compile Include="PersInfo_Simple.Designer.cs">
+      <DependentUpon>PersInfo_Simple.cs</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Coordinates.resx">
+      <DependentUpon>Coordinates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HW2_MenuForm.resx">
       <DependentUpon>HW2_MenuForm.cs</DependentUpon>
@@ -97,11 +97,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Task2.resx">
-      <DependentUpon>Task2.cs</DependentUpon>
+    <EmbeddedResource Include="TimerForm.resx">
+      <DependentUpon>TimerForm.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Task3.resx">
-      <DependentUpon>Task3.cs</DependentUpon>
+    <EmbeddedResource Include="PersInfo_Simple.resx">
+      <DependentUpon>PersInfo_Simple.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

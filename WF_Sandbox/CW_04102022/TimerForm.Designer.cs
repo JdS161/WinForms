@@ -1,6 +1,6 @@
 ﻿namespace CW_04102022
 {
-    partial class Task2
+    partial class TimerForm
     {
         /// <summary>
         /// Required designer variable.
@@ -32,6 +32,7 @@
             this.buttonStart = new System.Windows.Forms.Button();
             this.buttonStop = new System.Windows.Forms.Button();
             this.labelForTimer = new System.Windows.Forms.Label();
+            this.labelCountdown = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericCounter)).BeginInit();
             this.SuspendLayout();
             // 
@@ -44,7 +45,7 @@
             // 
             // buttonStart
             // 
-            this.buttonStart.Location = new System.Drawing.Point(31, 81);
+            this.buttonStart.Location = new System.Drawing.Point(31, 129);
             this.buttonStart.Name = "buttonStart";
             this.buttonStart.Size = new System.Drawing.Size(75, 23);
             this.buttonStart.TabIndex = 1;
@@ -54,7 +55,7 @@
             // 
             // buttonStop
             // 
-            this.buttonStop.Location = new System.Drawing.Point(152, 81);
+            this.buttonStop.Location = new System.Drawing.Point(152, 129);
             this.buttonStop.Name = "buttonStop";
             this.buttonStop.Size = new System.Drawing.Size(75, 23);
             this.buttonStop.TabIndex = 2;
@@ -71,16 +72,25 @@
             this.labelForTimer.TabIndex = 3;
             this.labelForTimer.Text = "Number of seconds";
             // 
-            // Task2
+            // labelCountdown
+            // 
+            this.labelCountdown.AutoSize = true;
+            this.labelCountdown.Location = new System.Drawing.Point(98, 89);
+            this.labelCountdown.Name = "labelCountdown";
+            this.labelCountdown.Size = new System.Drawing.Size(0, 20);
+            this.labelCountdown.TabIndex = 4;
+            // 
+            // TimerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(263, 127);
+            this.ClientSize = new System.Drawing.Size(263, 164);
+            this.Controls.Add(this.labelCountdown);
             this.Controls.Add(this.labelForTimer);
             this.Controls.Add(this.buttonStop);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.numericCounter);
-            this.Name = "Task2";
+            this.Name = "TimerForm";
             this.Text = "Timer";
             ((System.ComponentModel.ISupportInitialize)(this.numericCounter)).EndInit();
             this.ResumeLayout(false);
@@ -94,5 +104,6 @@
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Label labelForTimer;
+        private System.Windows.Forms.Label labelCountdown;
     }
 }

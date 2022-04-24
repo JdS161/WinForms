@@ -1,6 +1,6 @@
 ﻿namespace CW_04102022
 {
-    partial class Task3
+    partial class PersInfo_Simple
     {
         /// <summary>
         /// Required designer variable.

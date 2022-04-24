@@ -17,7 +17,6 @@ namespace CW_04102022
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new HW2_MenuForm());
-            //Application.Run(new HW2_Form());
         }
     }
 }
