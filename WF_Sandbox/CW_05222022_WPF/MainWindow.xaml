@@ -6,7 +6,113 @@
         xmlns:local="clr-namespace:CW_05222022_WPF"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <!--<Grid ShowGridLines="True">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="Auto" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+            <RowDefinition Height="*" ></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="Auto"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Button x:Name="btn02" Grid.Column="3" Grid.Row="0" Content="BUTTON r0c2" Grid.RowSpan="4" />
+        <Button x:Name="btn10" Grid.Column="0" Grid.Row="2" Content="BUTTON r1c0" FontFamily="Chiller" FontSize="36" FontWeight="Bold" FontStyle="Italic" FontStretch="Normal" Background="Aquamarine" Grid.ColumnSpan="3" />
+        <GridSplitter Grid.Column="2" ShowsPreview="True" HorizontalAlignment="Center"  VerticalAlignment="Stretch" Grid.RowSpan="4" Width="5" />
+        <GridSplitter Grid.Row="1" ShowsPreview="True" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="5" Grid.ColumnSpan="4"/>
+    </Grid>-->
+
+    <!--<StackPanel Orientation="Horizontal">
+        <Button Background="Aqua">BUTTON1</Button>
+        <Button Background="Orchid">BUTTON2</Button>
+        <Button Background="ForestGreen">BUTTON3</Button>
+        <Button Background="Bisque">BUTTON4</Button>
         
+        
+        
+    </StackPanel>-->
+
+    <!--<WrapPanel Orientation="Vertical">
+        <Button Background="Aqua" Height="100" Width="150">BUTTON1</Button>
+        <Button Background="Orchid" Height="30">BUTTON2</Button>
+        <Button Background="ForestGreen">BUTTON3</Button>
+        <Button Background="Bisque">BUTTON4</Button>
+        <Button Background="Aqua" Height="100" Width="150">BUTTON1</Button>
+        <Button Background="Orchid" Height="30">BUTTON2</Button>
+        <Button Background="ForestGreen">BUTTON3</Button>
+        <Button Background="Bisque">BUTTON4</Button>
+        <Button Background="Aqua" Height="100" Width="150">BUTTON1</Button>
+        <Button Background="Orchid" Height="30">BUTTON2</Button>
+        <Button Background="ForestGreen">BUTTON3</Button>
+        <Button Background="Bisque">BUTTON4</Button>
+    </WrapPanel>-->
+
+    <!--<DockPanel>
+        <Button DockPanel.Dock="Top" Background="GreenYellow" Height="50">Button1</Button>
+        <Button DockPanel.Dock="Left" Background="Crimson" Width="100">Button2</Button>
+        <Button DockPanel.Dock="Right" Background="BlueViolet">Button3</Button>
+        <Button DockPanel.Dock="Bottom" Background="Orange">Button4</Button>
+        <Button DockPanel.Dock="Top" Background="Pink">Button5</Button>
+    </DockPanel>-->
+
+    <!--<UniformGrid Columns="4" Rows="3" FirstColumn="2" >
+        <Button>Button1</Button>
+        <Button>Button2</Button>
+        <Button>Button3</Button>
+        <Button>Button4</Button>
+        <Button>Button5</Button>
+        <Button>Button6</Button>
+        
+    </UniformGrid>-->
+
+    <!--<Canvas>
+        <Button Background="#FFA7A5E0" Canvas.Bottom="50" Canvas.Left="243" Width="100" Height="30" Canvas.Top="133">Button1</Button>
+        <Button Background="#FF2F6D33" Canvas.Bottom="10" Canvas.Left="80" Width="100" Height="30">Button2</Button>
+        <Button Background="#FF6D622F" Canvas.Top="10" Canvas.Left="80" Width="100" Height="30">Button3</Button>
+        <Button Background="#FF5A8A90" Canvas.Top="70" Canvas.Right="80" Width="100" Height="30">Button4</Button>
+        <Button Background="#FF6A2F6D" Canvas.Bottom="100" Canvas.Left="80" Width="100" Height="30">Button5</Button>
+        <Button Background="#FFBDC179" Canvas.Bottom="60" Canvas.Left="386" Width="100" Height="30" Canvas.Top="268">Button6</Button>
+
+    </Canvas>-->
+
+
+    <Grid>
+        <Grid.Background>
+            <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                <GradientStop Color="Green" Offset="0"/>
+                <GradientStop Color="Yellow" Offset="1"/>
+            </LinearGradientBrush>
+        </Grid.Background>
+        <Button x:Name="button" Content="Hi WPF!" Margin="40,321,0,0" Click="Button_Click" Height="66" HorizontalAlignment="Left" VerticalAlignment="Top" RenderTransformOrigin="0.452,-0.14"></Button>
+        <Image x:Name="picture" 
+               Source="Nature.jpg" 
+               Margin="367,62,172,202" 
+               RenderTransformOrigin="0.5,0.5" 
+               Height="100" 
+               Width="100"  
+               MouseLeftButtonUp="Picture_MouseLeftButtonUp">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="Nature.jpg"/>
+            </Image.OpacityMask>
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/> 
+                    <TranslateTransform/>
+                    <RotateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+
+        </Image>
+
     </Grid>
+
+
+
+
 </Window>

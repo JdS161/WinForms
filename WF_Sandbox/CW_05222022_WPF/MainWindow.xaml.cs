@@ -24,5 +24,25 @@ namespace CW_05222022_WPF
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            var animation = new System.Windows.Media.Animation.DoubleAnimation();
+            animation.To = 100;
+            animation.From = 250;
+            animation.Duration = TimeSpan.FromMilliseconds(5000);
+            button.BeginAnimation(Button.WidthProperty, animation);
+        }
+
+        private void Picture_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+
+            var animation = new System.Windows.Media.Animation.DoubleAnimation();
+            animation.To = 250;
+            animation.From = 80;
+            animation.Duration = TimeSpan.FromMilliseconds(5000);
+            picture.BeginAnimation(Image.WidthProperty, animation);
+            picture.BeginAnimation(Image.HeightProperty, animation);
+        }
     }
 }
