@@ -33,6 +33,7 @@
             this.buttonStop = new System.Windows.Forms.Button();
             this.labelForTimer = new System.Windows.Forms.Label();
             this.labelCountdown = new System.Windows.Forms.Label();
+            this.lblCountdown = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.numericCounter)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,14 +78,25 @@
             this.labelCountdown.AutoSize = true;
             this.labelCountdown.Location = new System.Drawing.Point(98, 89);
             this.labelCountdown.Name = "labelCountdown";
-            this.labelCountdown.Size = new System.Drawing.Size(0, 20);
+            this.labelCountdown.Size = new System.Drawing.Size(0, 16);
             this.labelCountdown.TabIndex = 4;
+            // 
+            // lblCountdown
+            // 
+            this.lblCountdown.AutoSize = true;
+            this.lblCountdown.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCountdown.Location = new System.Drawing.Point(113, 76);
+            this.lblCountdown.Name = "lblCountdown";
+            this.lblCountdown.Size = new System.Drawing.Size(91, 32);
+            this.lblCountdown.TabIndex = 5;
+            this.lblCountdown.Text = "00:00";
             // 
             // TimerForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(263, 164);
+            this.Controls.Add(this.lblCountdown);
             this.Controls.Add(this.labelCountdown);
             this.Controls.Add(this.labelForTimer);
             this.Controls.Add(this.buttonStop);
@@ -105,5 +117,6 @@
         private System.Windows.Forms.Button buttonStop;
         private System.Windows.Forms.Label labelForTimer;
         private System.Windows.Forms.Label labelCountdown;
+        private System.Windows.Forms.Label lblCountdown;
     }
 }

@@ -16,8 +16,6 @@ namespace CW_04102022
         Stopwatch stopWatch = new Stopwatch();
         System.Windows.Forms.Timer timer = new System.Windows.Forms.Timer();
         
-        
-
         public TimerForm()
         {
             InitializeComponent();
@@ -31,9 +29,7 @@ namespace CW_04102022
             MessageBox.Show("Timer finished", "Timer");
             buttonStop.Enabled = false;
         }
-
         
-
         private void buttonStart_Click(object sender, EventArgs e)
         {
             if(numericCounter.Value <=0)
