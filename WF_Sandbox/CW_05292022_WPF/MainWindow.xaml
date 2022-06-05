@@ -105,31 +105,31 @@
 
     <!--VideoPlayer-->
     <Grid>
-        <MediaElement Height="292" Margin="37,43,31,0" VerticalAlignment="Top"/>
-        <Slider HorizontalAlignment="Left" Margin="37,356,0,0" VerticalAlignment="Top" Width="732" Height="25"/>
-        <Slider x:Name="sldrVolume" HorizontalAlignment="Left" Margin="582,433,0,0" VerticalAlignment="Top" Width="187" Height="23" Maximum="1" Value="1"/>
+        <MediaElement x:Name="mediaElement_1" Height="292" Margin="37,43,31,0" VerticalAlignment="Top" MediaOpened="mediaElement_1_MediaOpened" LoadedBehavior="Manual"/>
+        <Slider x:Name="sldrVideo" HorizontalAlignment="Left" Margin="37,356,0,0" VerticalAlignment="Top" Width="732" Height="25" ValueChanged="sldrVideo_ValueChanged"/>
+        <Slider x:Name="sldrVolume" HorizontalAlignment="Left" Margin="582,433,0,0" VerticalAlignment="Top" Width="187" Height="23" Maximum="1" Value="1" ValueChanged="sldrVolume_ValueChanged"/>
         <Label Content="Volume" HorizontalAlignment="Left" Margin="518,428,0,0" VerticalAlignment="Top" Height="28" Width="51"/>
         <Button x:Name="btnEject" HorizontalAlignment="Left" Margin="42,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596" Click="btnEject_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Eject.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnPause" HorizontalAlignment="Left" Margin="112,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596">
+        <Button x:Name="btnPause" HorizontalAlignment="Left" Margin="112,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596" Click="btnPause_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Pause.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnPlay" HorizontalAlignment="Left" Margin="182,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596">
+        <Button x:Name="btnPlay" HorizontalAlignment="Left" Margin="182,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596" Click="btnPlay_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Play.jpg"/>
             </Button.Background>
         </Button>
-        <Button x:Name="btnStop" HorizontalAlignment="Left" Margin="252,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596">
+        <Button x:Name="btnStop" HorizontalAlignment="Left" Margin="252,407,0,0" VerticalAlignment="Top" Height="53" Width="58" RenderTransformOrigin="0.422,0.596" Click="btnStop_Click">
             <Button.Background>
                 <ImageBrush ImageSource="/Stop.jpg"/>
             </Button.Background>
         </Button>
-
+        
     </Grid>
 
 

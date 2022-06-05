@@ -15,3 +15,20 @@ C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\C
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.csproj.CoreCompileInputs.cache
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.exe
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.pdb
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\bin\Debug\CW_05292022_WPF.exe.config
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\bin\Debug\CW_05292022_WPF.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\bin\Debug\CW_05292022_WPF.pdb
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.csproj.AssemblyReference.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.csproj.SuggestedBindingRedirects.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\MainWindow.g.cs
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\App.g.cs
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF_Content.g.cs
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF_MarkupCompile.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF_MarkupCompile.lref
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\MainWindow.baml
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.g.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.Properties.Resources.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.csproj.GenerateResource.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.csproj.CoreCompileInputs.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_05292022_WPF\obj\Debug\CW_05292022_WPF.pdb

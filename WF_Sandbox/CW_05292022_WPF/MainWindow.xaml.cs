@@ -31,7 +31,66 @@ namespace CW_05292022_WPF
 
         private void btnEject_Click(object sender, RoutedEventArgs e)
         {
+            OpenFileDialog ofd = new OpenFileDialog();
+            ofd.AddExtension = true;
+            ofd.DefaultExt = "*.*";
+            ofd.Filter = "Media Files (*.*)|*.*";
+            ofd.ShowDialog();
+            try
+            {
+                
+                mediaElement_1.Source = new Uri(ofd.FileName);
+            }
+            catch (Exception)
+            {
+                new NullReferenceException("Error");
+            }
+            System.Windows.Threading.DispatcherTimer dt = new System.Windows.Threading.DispatcherTimer();
+            dt.Tick += new EventHandler(timer_Tick);
+            dt.Interval = new TimeSpan(0, 0, 1);
+            dt.Start();
 
+        }
+
+        private void timer_Tick(object sender, EventArgs e)
+        {
+            sldrVideo.Value = mediaElement_1.Position.TotalSeconds;
+            //throw new NotImplementedException();
+        }
+
+        private void btnPause_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement_1.Pause();
+        }
+
+        private void sldrVideo_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            TimeSpan ts = TimeSpan.FromSeconds(e.NewValue);
+            mediaElement_1.Position = ts;
+        }
+
+        private void sldrVolume_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+            mediaElement_1.Volume = sldrVolume.Value;
+        }
+
+        private void mediaElement_1_MediaOpened(object sender, RoutedEventArgs e)
+        {
+            if(mediaElement_1.NaturalDuration.HasTimeSpan)
+            {
+                TimeSpan ts = TimeSpan.FromMilliseconds(mediaElement_1.NaturalDuration.TimeSpan.TotalMilliseconds);
+                sldrVideo.Maximum = ts.TotalSeconds;
+            }
+        }
+
+        private void btnPlay_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement_1.Play();
+        }
+
+        private void btnStop_Click(object sender, RoutedEventArgs e)
+        {
+            mediaElement_1.Stop();
         }
 
         //private void g1_Loaded(object sender, RoutedEventArgs e)
