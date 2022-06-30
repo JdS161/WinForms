@@ -10,3 +10,15 @@ C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\W
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\Maze.csproj.CoreCompileInputs.cache
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.exe
 C:\Users\DMDIAVasilchenko\OneDrive - Smiths Group\EDU\Step\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.pdb
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\bin\Debug\WF_Sandbox.exe.config
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\bin\Debug\WF_Sandbox.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\bin\Debug\WF_Sandbox.pdb
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\Maze.csproj.AssemblyReference.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\Maze.csproj.SuggestedBindingRedirects.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.Form1.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.Form2.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.Properties.Resources.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\Maze.csproj.GenerateResource.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\Maze.csproj.CoreCompileInputs.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\WF_Sandbox\obj\Debug\WF_Sandbox.pdb

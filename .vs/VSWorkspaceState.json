@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\WF_Sandbox",
+    "\\WF_Sandbox\\CW_20220612_WPF"
   ],
-  "SelectedNode": "\\WF_Sandbox.sln",
+  "SelectedNode": "\\WF_Sandbox\\CW_20220612_WPF\\MainWindow.xaml",
   "PreviewInSolutionExplorer": false
 }

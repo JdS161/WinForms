@@ -1,0 +1,11 @@
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\bin\Debug\CW_20220619.exe.config
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\bin\Debug\CW_20220619.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\bin\Debug\CW_20220619.pdb
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.csproj.AssemblyReference.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.csproj.SuggestedBindingRedirects.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.Form1.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.Properties.Resources.resources
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.csproj.GenerateResource.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.csproj.CoreCompileInputs.cache
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.exe
+C:\Users\avasi\Source\Repos\JdS161\WinForms\WF_Sandbox\CW_20220619\obj\Debug\CW_20220619.pdb

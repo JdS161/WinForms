@@ -21,10 +21,24 @@
             <ColumnDefinition Width="*"></ColumnDefinition>
         </Grid.ColumnDefinitions>
 
-        <Button x:Name="btn02" Grid.Column="3" Grid.Row="0" Content="BUTTON r0c2" Grid.RowSpan="4" />
-        <Button x:Name="btn10" Grid.Column="0" Grid.Row="2" Content="BUTTON r1c0" FontFamily="Chiller" FontSize="36" FontWeight="Bold" FontStyle="Italic" FontStretch="Normal" Background="Aquamarine" Grid.ColumnSpan="3" />
-        <GridSplitter Grid.Column="2" ShowsPreview="True" HorizontalAlignment="Center"  VerticalAlignment="Stretch" Grid.RowSpan="4" Width="5" />
-        <GridSplitter Grid.Row="1" ShowsPreview="True" HorizontalAlignment="Stretch" VerticalAlignment="Center" Height="5" Grid.ColumnSpan="4"/>
+        <Button x:Name="btn02" Grid.Column="3" 
+            Grid.Row="0" Content="BUTTON r0c2" 
+            Grid.RowSpan="4" />
+        <Button x:Name="btn10" Grid.Column="0" 
+            Grid.Row="2" Content="BUTTON r1c0" 
+            FontFamily="Chiller" FontSize="36" 
+            FontWeight="Bold" FontStyle="Italic" 
+            FontStretch="Normal" Background="Aquamarine"
+            Grid.ColumnSpan="3" />
+        <GridSplitter Grid.Column="2" 
+            ShowsPreview="True" 
+            HorizontalAlignment="Center"  
+            VerticalAlignment="Stretch" 
+            Grid.RowSpan="4" Width="5" />
+        <GridSplitter Grid.Row="1" ShowsPreview="True"
+            HorizontalAlignment="Stretch" 
+            VerticalAlignment="Center" 
+            Height="5" Grid.ColumnSpan="4"/>
     </Grid>-->
 
     <!--<StackPanel Orientation="Horizontal">
